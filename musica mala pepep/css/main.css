@@ -1,0 +1,57 @@
+html{
+    background-color: #B8CCBA;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-container{
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+}
+.icon-svg{
+    width: 24px;
+    height: 24px;
+}
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-bottom: solid #632424 3px;
+    background-color: #BEB8CC;
+}
+.menu-items{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    height: 3rem;
+    align-items: center;
+}
+
+
+#artista{
+    width: 35rem;
+    height: 35rem;
+    background-color: rgba(0, 128, 6, 0.836);
+    border-radius: 15%;
+    box-shadow: 9px 9px 10px;
+    
+}
+.cancion{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.boton{
+    border-radius: 50%;
+    
+}
+.play {
+    border-radius: 50%;
+}
